@@ -8,11 +8,22 @@ Dieses Skript überwacht die Sprungaktivität eines Spielers in GTA V und verhä
 ##
 | Ressource | Quellen |
 | ------ | ------ |
-| PMA-VOICE | https://github.com/AvarianKnight/pma-voice |
-| DV-NOTALK | https://github.com/Diosk2k/dv_notalk |
+| DV-NOTALK | https://github.com/Diosk2k/dv_fallaufnase |
 ##
 ## Development
 Ihr braucht Hilfe bei der Installation?
 
 Auf meinen Discord helfe ich euch gern!
 https://discord.gg/8qErUm9WkM
+
+## Konfiguration
+Um das Verhalten des Skripts anzupassen, könnt ihr die Werte in der `config.lua` ändern:
+
+```lua
+Config = {}
+
+-- Strafe für das Springen (Lebensverlust in Prozent)
+Config.PenaltyPercentage = 2
+
+-- Zeitrahmen für wiederholtes Springen (in Millisekunden)
+Config.JumpTimeFrame = 1000 -- 3 Sekunden
