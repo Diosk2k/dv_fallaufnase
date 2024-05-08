@@ -8,7 +8,7 @@ Dieses Skript überwacht die Sprungaktivität eines Spielers in GTA V und verhä
 ##
 | Ressource | Quellen |
 | ------ | ------ |
-| DV-NOTALK | https://github.com/Diosk2k/dv_fallaufnase |
+| Dv_Fallaufnase | https://github.com/Diosk2k/dv_fallaufnase |
 ##
 ## Development
 Ihr braucht Hilfe bei der Installation?
